@@ -1,10 +1,6 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+# PHP Database
 
-\f0\fs24 \cf0 Marina Smirnova\
-\
-msmirnova1@my.bcit.ca}
+PHP web application that allows a user to administer the students table on the students database. The user is able to view the current state of the table, as well as add, delete or edit a record. Main PHP page displays the entire students table as an HTML table, one record per row. The background color of each row is alternated. There is an “Add Student” link above the table. There’re also two additional data cells per row, one containing a “Delete” and the other a “Update” link. The Update and Delete links send record-specific information via a GET query string to the scripts responsible for updating and deleting from the database.
+
+
+[LINK](https://msmirnova.ca/projects/php-students-database/index.php) to see the database online
